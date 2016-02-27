@@ -40,6 +40,7 @@
     <Content Include="build\html\genindex.html" />
     <Content Include="build\html\index.html" />
     <Content Include="build\html\objects.inv" />
+    <Content Include="build\html\resoure.html" />
     <Content Include="build\html\search.html" />
     <Content Include="build\html\searchindex.js" />
     <Content Include="build\html\_sources\index.txt" />
@@ -70,6 +71,7 @@
     <Content Include="make.bat" />
     <Content Include="Makefile" />
     <Content Include="source\index.rst" />
+    <Content Include="source\resoure.rst" />
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
